@@ -12,7 +12,7 @@
     "landing",
     "takeoff",
     "cruise",
-    "maneuver",
+    "manoeuver",
     "approach",
     "climb",
     "descent",

@@ -65,7 +65,7 @@
   <Map {features} />
   <p>
     The good news is, large-scale airplane crashes leading to many fatalities
-    happen less and less.
+    are happenning less and less.
   </p>
 
   <p class="last">
@@ -93,18 +93,21 @@
     >.
   </p>
   <p class="last">
-    Before 2000s there had been several large scale commercial
-    aiplane crashes with many people on board. Such event are becoming
-    increasingly rare. However, small private planes with a few people on board crash with almost daily frequency. Togather, these events account for a larger number of fatalities that a few bigger crashes.
+    Before 2000s there had been several large scale commercial aiplane crashes
+    with many people on board. Such event are becoming increasingly rare.
+    However, small private planes with a few people on board crash with almost
+    daily frequency. Together, these events account for a larger number of
+    fatalities that a few bigger crashes.
   </p>
-  <p class="title">Number of fatalities by timing during the flight</p>
   <ForceFatalities data={dataUS} />
   <p class="first">
-    Before 2000s, there had been several large-scale commercial
-    airplanes crashes with many people on board. Such events are becoming
-    increasingly rare. However, small private planes with a few people on board crash with almost daily frequency. Together, these events account for a more significant number of fatalities than a few bigger crashes.
+    Before 2000s, there had been several large-scale commercial airplanes
+    crashes with many people on board. Such events are becoming increasingly
+    rare. However, small private planes with a few people on board crash with
+    almost daily frequency. Together, these events account for a more
+    significant number of fatalities than a few bigger crashes.
   </p>
-
+  <p class="title">Number of fatalities by timing during the flight</p>
   <Timing data={timing} />
 </main>
 
