@@ -101,11 +101,10 @@
   </p>
   <ForceFatalities data={dataUS} />
   <p class="first last">
-    Before 2000s, there had been several large-scale commercial airplanes
-    crashes with many people on board. Such events are becoming increasingly
-    rare. However, small private planes with a few people on board crash with
-    almost daily frequency. Together, these events account for a more
-    significant number of fatalities than a few bigger crashes.
+    The data supports a widely held assumption that takeoff and landing are the
+    most dangerous parts of a flight. There are several reasons for this,
+    including the limited time pilots have to make decisions during these
+    phases.
   </p>
   <p class="title">Number of fatalities by timing during the flight</p>
   <Timing data={timing} />
