@@ -1,0 +1,9 @@
+﻿phase,num
+landing,25
+takeoff,20
+cruise,16
+maneuver,13
+approach,10
+climb,3
+descent,3
+taxi,2
