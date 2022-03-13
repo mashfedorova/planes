@@ -1,15 +1,9 @@
 <script>
   import {
     line,
-    curveStep,
     scaleLinear,
-    scalePoint,
     extent,
-    scaleTime,
     max,
-    range,
-    min,
-    curveNatural,
     curveCatmullRom,
   } from "d3"
 
@@ -40,10 +34,6 @@
     .y((d) => yScale(d.sum))
     .curve(curveCatmullRom)
 
-  // $: console.log(maxY)
-
-  // $: console.log(data.filter((d) => d.sum === 2707))
-  // $: console.log(xScale(2000), xScale(2001), xScale(2002))
 </script>
 
 <svg {width} {height}>

@@ -1,5 +1,5 @@
 <script>
-  import { csv, timeParse } from "d3"
+  import { csv } from "d3"
   import { onMount } from "svelte"
   import Map from "./../components/Map.svelte"
   import LineCounts from "./../components/LineCounts.svelte"
@@ -100,7 +100,7 @@
     fatalities that a few bigger crashes.
   </p>
   <ForceFatalities data={dataUS} />
-  <p class="first">
+  <p class="first last">
     Before 2000s, there had been several large-scale commercial airplanes
     crashes with many people on board. Such events are becoming increasingly
     rare. However, small private planes with a few people on board crash with

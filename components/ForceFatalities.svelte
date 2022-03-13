@@ -1,7 +1,5 @@
 <script>
-  // import { _ } from "lodash"
   import { Canvas } from "svelte-canvas"
-  import { Layer } from "svelte-canvas"
   import {
     forceSimulation,
     forceCollide,
@@ -35,7 +33,7 @@
         .y((d) => yScale(d.year))
         .strength(1.5)
     )
-    .force("x", forceX(500 / 2).strength(1))
+    .force("x", forceX(300).strength(1))
     .force(
       "collide",
       forceCollide().radius((d) => radiusScale(d.injuries) + 1)

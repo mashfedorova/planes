@@ -1,15 +1,11 @@
 <script>
   import { geoPath, geoEqualEarth } from "d3-geo"
-  // import dataBaseFeatures from "./../data/dataGeoCountries.js"
-  import { fade } from "svelte/transition"
   export let features
   let width = 700
   let height = width * 0.7
   const sphere = { type: "Sphere" }
   let projection = geoEqualEarth().fitSize([width, height], sphere)
   let path = geoPath(projection)
-
-  // $: console.log(features)
 </script>
 
 <svg {width} height="600">

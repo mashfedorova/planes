@@ -4,7 +4,6 @@
   export let y = 0
   export let r = 0
   export let fill
-  // export let width
 
   $: render = ({ context }) => {
     context.beginPath()
